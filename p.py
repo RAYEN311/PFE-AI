@@ -1,4 +1,4 @@
-import cv2
+lllimport cv2
 import numpy as np
 
 # Load the design image with alpha channel
@@ -45,7 +45,7 @@ def detect_pcbs(frame):
 
                 # Draw the rotated bounding box
                 cv2.drawContours(frame, [box], 0, (0, 0, 255), 2)
-
+#prop solution
                 try:
                    seg = int(( (box[1][0] - box[0][0] )**2 - (box[1][1] - box[0][1] )**2) **0.5)
                 except:
