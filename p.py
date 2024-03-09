@@ -1,7 +1,7 @@
 lllimport cv2
 import numpy as np
 
-# Load the design image with alpha ch
+# Load the design image with alpha c
 design_image = cv2.imread('design.png', cv2.IMREAD_UNCHANGED)
 
 # Function to detect PCBs in an image
