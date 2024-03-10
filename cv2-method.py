@@ -1,4 +1,4 @@
-lllimport cv2
+import cv2
 import numpy as np
 
 # Load the design image with alpha channel
