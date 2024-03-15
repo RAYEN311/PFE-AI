@@ -1,0 +1,12 @@
+item {
+    id: 1
+    name: 'blue_brick'
+}
+item {
+    id: 2
+    name: 'red_brick'
+}
+item {
+    id: 3
+    name: 'green_brick'
+}
