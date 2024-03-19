@@ -1,2 +1,2 @@
 
-for ed
+for edition
