@@ -1,2 +1,2 @@
 
-for edition
+for edition trained
