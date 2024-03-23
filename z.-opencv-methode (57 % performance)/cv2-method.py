@@ -4,7 +4,7 @@ import numpy as np
 # Load the design image with alpha channel
 design_image = cv2.imread('design.png', cv2.IMREAD_UNCHANGED)
 
-# Function to detect PCBs in an img
+# Function to detect PCBs in an image
 def detect_pcbs(frame):
     # Convert frame to grayscale
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
