@@ -2,7 +2,6 @@ from detecto.core import Model
 from detecto import utils, visualize
 
 labels = ['PCB-MODEL-0', 'normal-spring_finger', 'defected-spring_finger','normal-through','defected-through']
-#
 
 model = Model.load('./pcb_detect.pth' , labels )
 
